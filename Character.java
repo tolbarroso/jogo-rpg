@@ -1,12 +1,3 @@
-/* Atributos da classe Abstract Character:
-HP;
-Ataque;
-Status;
-Poder mágico.
-
-Métodos (Movimentos):
-Atacar. */
-
 public abstract class Character {
     public int hp;
     public int ataque;
