@@ -1,12 +1,3 @@
-/* Atributos da classe Abstract Character:
-HP;
-Ataque;
-Status;
-Poder mágico.
-
-Métodos (Movimentos):
-Atacar. */
-
 public abstract class Character {
     public int hp;
     public int ataque;
@@ -46,7 +37,10 @@ public abstract class Character {
     }
     
     public Character(int hp, int ataque, String status, int poderMagico) {
-        
+        super();
     }
 
+    public Warrior warrior1 = new Warrior(20, 3, "Normal", 5);
+    public Monster monster1 = new Monster(24, 4, "Normal", 6);
+    
 }
