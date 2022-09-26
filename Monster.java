@@ -1,8 +1,15 @@
+import javax.sound.sampled.SourceDataLine;
+import javax.swing.SpringLayout;
+import javax.swing.event.SwingPropertyChangeSupport;
+// 🎮😵🧩🏆🔮🩺🧰🛡️⚔️🔨🦸🏻‍♀️🧟‍♀️🤕☠️👏
+
 public class Monster extends Character{
 
     public Monster(int hp, int ataque, String status, int poderMagico) {
         super(hp, ataque, status, poderMagico);
     }
+
+    private Warrior warrior1;
 
     Monster monster1 = new Monster(24, 4, "Normal", 6); 
 
